@@ -1,0 +1,29 @@
+{
+  "skill_name": "notebooklm-slide-prompt-coach",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有3张工业蓝图风和拆解图风格的参考图，想做一个关于智能制造产线改造的 NotebookLM 幻灯片。受众是工厂负责人和技术团队。我偏好深蓝、白色和一点橙色。请帮我直接产出可贴到 NotebookLM 的成品提示词。",
+      "expected_output": "Should recommend suitable technical/precision directions and produce a final prompt emphasizing 16:9 layout, diagram clarity, restrained color system, and anti-clutter constraints.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我有几张很高级的深色 SaaS 和玻璃感界面参考图，想用 NotebookLM 做一套 AI 战略汇报给高层看。你来决定风格，重点是稳、贵、未来感。请直接给我最终提示词。",
+      "expected_output": "Should default to a strategic/professional future direction, optionally mix in dashboard logic, and output a complete NotebookLM prompt suitable for executives.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我有几张手绘感很强的会议可视化参考图，要把一份组织文化工作坊记录做成 NotebookLM 幻灯片。受众是团队成员，不想太官方。请给我最终提示词，并帮我保留轻松、亲和的感觉。",
+      "expected_output": "Should favor human/approachable directions such as sketch note, keep the tone warm, and output a paste-ready NotebookLM prompt that stays readable and not childish.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "你先直接给我 YAML，不用问我太多。我有一组偏商业媒体风的参考图，想把一份行业趋势报告做成 NotebookLM 幻灯片。如果你觉得有必要，只提醒我一个最接近但更稳的替代方向。",
+      "expected_output": "Should behave like quick or normal mode, avoid long guidance, optionally offer one nearby alternative, and still produce a paste-ready YAML prompt immediately.",
+      "files": []
+    }
+  ]
+}
